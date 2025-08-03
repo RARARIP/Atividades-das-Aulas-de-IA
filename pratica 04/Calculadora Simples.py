@@ -11,21 +11,21 @@ O programa deve continuar solicitando entradas até que uma operação válida s
 
 """
 
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
-operacao = input("Digite uma operação desejada (+, -, *, /)")
+num1 = float(input("Digite o primeiro nA0mero: "))
+num2 = float(input("Digite o segundo nA0mero: "))
+operacao = input("Digite uma operaA&A#o desejada (+, -, *, /)")
 
 if operacao == '+':
-    resultado = num1 + num2
+ resultado = num1 + num2
 elif operacao == '-':
-    resultado = num1 - num2
+ resultado = num1 - num2
 elif operacao == '*':
-    resultado = num1 * num2
+ resultado = num1 * num2
 elif operacao == '/':
-    if num2 == 0:
-        print("Erro: divisão por zero não é possível.")
-        continue
-    resultado = num1 / num2
+ if num2 == 0:
+  print("Erro: divisA#o por zero nA#o (C) possA$vel.")
+continue
+resultado = num1 / num2
 else:
-    print("Erro: operação inválida")
-    
+print("Erro: operaA&A#o invA!lida")
+
